@@ -23,7 +23,7 @@ $ export AW_CLIENT_SECRET=clent_secret
 ```
 
 ```bash
-$ ads-token-gen --gen_url
+$ ads-token-gen --url
 ```
 
 The `auth url` will be generated and copied to the clipboard. Paste it on your browser.

@@ -22,7 +22,7 @@ const auth = new AdsAuth({
 })
 
 // generate auth url
-if (argv.gen_url) {
+if (argv.url) {
   const authUrl = auth.generateAuthUrl()
   clipboardy.writeSync(authUrl)
   log(`${chalk.green('✓')} The auth URL has been ${chalk.bold.green('generated and stored in the clipboard')}. Paste it in your browser`)
