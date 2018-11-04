@@ -26,6 +26,8 @@ $ export AW_CLIENT_SECRET=clent_secret
 $ ads-token-gen --url
 ```
 
+>**NOTE:** You can also change [the scope](https://developers.google.com/identity/protocols/googlescopes) from the default one (Adwords) by supplying `--scope <scope-url>`
+
 The `auth url` will be generated and copied to the clipboard. Paste it on your browser.
 
 Follow the authorization directions and copy the code generated (at the final stage). Use the code obtained in the command below:
