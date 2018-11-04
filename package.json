@@ -1,6 +1,6 @@
 {
   "name": "ads-token-gen",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An NPM module for generating OAuth2 credentails for Google Adword API",
   "main": "index.js",
   "repository": "https://github.com/profnandaa/ads-token-gen.git",
@@ -9,8 +9,16 @@
   "private": false,
   "dependencies": {
     "chalk": "^2.4.1",
+    "clipboardy": "^1.2.3",
     "google-auth-library": "^2.0.1",
     "json-beautify": "^1.0.1",
     "yargs-parser": "^11.0.0"
+  },
+  "keywords": [
+    "google ads",
+    "adword"
+  ],
+  "bin": {
+    "ads-token-gen": "./index.js"
   }
 }
