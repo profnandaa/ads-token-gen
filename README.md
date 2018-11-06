@@ -19,7 +19,7 @@ Start by generating the Authentication URL by running:
 
 ```bash
 $ export AW_CLIENT_ID=client_id
-$ export AW_CLIENT_SECRET=clent_secret
+$ export AW_CLIENT_SECRET=client_secret
 ```
 
 ```bash
