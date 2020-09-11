@@ -12,7 +12,7 @@
     "clipboardy": "^1.2.3",
     "google-auth-library": "^2.0.1",
     "json-beautify": "^1.0.1",
-    "yargs-parser": "^11.0.0"
+    "yargs-parser": "^13.1.2"
   },
   "keywords": [
     "google ads",
